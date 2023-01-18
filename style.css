@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #1F1F24;
+}
+
+#logo1 {
+    width: 250px;
+    height: auto
+}
+
+nav {
+    display: flex; 
+    background-color: #1F1F24;
+    width: 80%;
+    height: 15vh;
+    padding-left: 20%;
+    float: left;
+}
+
+.menuBotao3 {
+    background-color: #1F1F24;
+    color: #8DD0F3;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    margin-top:33px;
+}
+
+.menuBotao3:hover {
+    background-color: black;
+}
+
+.quemSomos {
+    display: flex;
+    position: relative;
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.menuFilho3 {
+    display: none;
+    background-color:#D2C2B0;
+    /* width: 50%; */
+    min-width: 100px
+}
+
+.menuFilho3 p {
+    color:#1F1F24;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-family: Tahoma;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.quemSomos:hover .menuFilho3 {
+    display: block;
+}
+
+/* .quemSomos{
+    display: flex;
+    background-color: #1F1F24;
+    color: #8DD0F3;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    flex-basis: 50%;;
+} */
+.menuBotao2 {
+    background-color: #1F1F24;
+    color: #8DD0F3;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    margin-top:33px;
+}
+
+.menuBotao2:hover {
+    background-color: black;
+}
+
+.contato {
+    display: flex;
+    position: relative;
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.menuFilho2 {
+    display: none;
+    background-color:#D2C2B0;
+    /* width: 50%; */
+    min-width: 100px
+}
+
+.menuFilho2 p {
+    color:#1F1F24;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-family: Tahoma;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.contato:hover .menuFilho2 {
+    display: block;
+}
+
+#alinhamentoZap, #alinhamentoEmail{
+    display: flex;
+    align-items: center;
+}
+
+#zap, #email{
+    width: 25px;
+}
+
+/* .contato{
+    display: flex;
+    background-color: #1F1F24;
+    color: #8DD0F3;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    flex-basis: 50%;;
+} */
+
+.menuBotao {
+    background-color: #1F1F24;
+    color: #8DD0F3;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    margin-top:33px;
+}
+
+.menuBotao:hover {
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.menuFilho {
+    display: none;
+    background-color:#D2C2B0;
+    /* width: 50%; */
+    min-width: 100px
+}
+
+.menuFilho p {
+    color:#1F1F24;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-family: Tahoma;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.menu:hover .menuFilho {
+    display: block;
+}
+
+/* #produto1{
+    width: 140px
+} */
+
+main{
+    background-color: #8DD0F3;
+}
+
+.main1 {
+    display: flex;
+    height: 85vh;
+}
+
+#mulher {
+    height: 85vh
+}
+
+.paragrafoEsquerdo {
+    padding: 10% 5%;
+    font-family: Tahoma;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.paragrafoDireito {
+    padding: 5% 2%;
+    font-family: Tahoma;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#logo2 {
+    width: 40%;
+    height: auto;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+#eAqui {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.main2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 85px; 
+        padding: 20px 60px;
+        margin-top: 50px;
+       
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F24;
+    color: #8DD0F3;
+    padding-top: 40px;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    gap: 120px;
+    width: 350px;
+    height: 350px; 
+    
+}
+.caixa:hover{
+    color: #1F1F24;
+    background-color: #8DD0F3;
+    border: 3px solid black; 
+    transition: 0.7s;
+ }
+.caixah2{
+    font-size: 40px; 
+}
+.caixap{
+    padding: 5px 35px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    height: 49px;
+    align-items: center;
+    background-color: #1F1F24;
+    padding-left: 5%
+}
+
+#footer1 {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #8DD0F3
+}
+
+#logo3 {
+    height: 49px
+}
+
+#twitter {
+    width: 30px;
+    margin-left: 10vw
+}
+
+#instagram {
+    width: 30px;
+    margin-left: 10vw
+}
+
+#facebook {
+    width: 30px;
+    margin-left: 10vw;
+}
+
+#ma {
+    padding-left: 10%;
+    color: #8DD0F3;
+    font-family: Tahoma;
+}
+
