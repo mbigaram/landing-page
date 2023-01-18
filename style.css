@@ -263,7 +263,7 @@ main{
 
 footer {
     display: flex;
-    height: 49px;
+    height: 100px;
     align-items: center;
     background-color: #1F1F24;
     padding-left: 5%
